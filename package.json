@@ -1,0 +1,27 @@
+{
+  "name": "mango-test",
+  "version": "1.0.0",
+  "description": "Coding challenge for Mango",
+  "scripts": {
+    "dev": "parcel ./src/index.html --no-cache --open -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maenzaga/mango-test.git"
+  },
+  "author": "Manuel Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maenzaga/mango-test/issues"
+  },
+  "homepage": "https://github.com/Maenzaga/mango-test#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0"
+  }
+}
