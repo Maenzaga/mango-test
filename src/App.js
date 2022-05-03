@@ -1,7 +1,7 @@
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
-import Exercise1 from "./components/exercise1/exercise1";
-import Exercise2 from "./components/Exercise2/Exercise2";
-import Home from "./components/Home/Home";
+import Exercise1 from "./pages/Exercise1/Exercise1";
+import Exercise2 from "./pages/Exercise2/Exercise2";
+import Home from "./pages/Home/Home";
 
 export default function App() {
   return (

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import getRange from "../../services/rangeService";
+import styles from "./Exercise1.module.scss";
 
 export default function Exercise1() {
   const [range, setRange] = useState(null);
@@ -14,7 +15,7 @@ export default function Exercise1() {
   }, [setRange]);
 
   return (
-    <>
+    <div id="exercise1-container" className={styles.exercise}>
       {!loaded ? (
         <>loading...</>
       ) : (
@@ -27,6 +28,6 @@ export default function Exercise1() {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }
